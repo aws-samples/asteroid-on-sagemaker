@@ -1,4 +1,4 @@
-numpy==1.18.1
+numpy==1.21.0
 numba==0.48
 pytorch-lightning==0.7.6
 Cython==0.29.15
