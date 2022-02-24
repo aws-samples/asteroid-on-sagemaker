@@ -1,0 +1,40 @@
+data:
+  mode: min
+  model_dir: /opt/ml/model
+  nondefault_nsrc: null
+  sample_rate: 16000
+  segment: 1.0
+  task: sep_noisy
+  train_dir: /opt/ml/input/data/training #/home/ec2-user/SageMaker/asteroid_byoc/data/
+  valid_dir: /opt/ml/input/data/training #/home/ec2-user/SageMaker/asteroid_byoc/data/
+filterbank:
+  kernel_size: 2
+  n_filters: 64
+  stride: 1
+main_args:
+  help: null
+masknet:
+  bidirectional: true
+  bn_chan: 128
+  chunk_size: 250
+  dropout: 0
+  hid_size: 128
+  hop_size: 125
+  in_chan: 64
+  mask_act: sigmoid
+  n_repeats: 6
+  n_src: 2
+  out_chan: 64
+optim:
+  lr: 0.05
+  optimizer: adam
+  weight_decay: 1.0e-05
+positional arguments: {}
+training:
+  batch_size: 2
+  early_stop: true
+  epochs: 1
+  gradient_clipping: 5
+  half_lr: true
+  num_workers: 1
+  use_cuda: false

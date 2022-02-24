@@ -1,0 +1,8 @@
+numpy
+numba
+pytorch-lightning
+Cython
+asteroid
+sagemaker-inference
+PyYAML
+torchaudio

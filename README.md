@@ -1,11 +1,6 @@
-## My Project
+## Asteroid on SageMaker
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+Asterioid is a speech separation toolkit based on pytorch. It can carry out rapid experiments on general data sets, and can also carry out finetune and deployment of models on custom data sets. In this blog, we will explore how to make the asterioid speech separation pre training model finetune and deploy on Amazon sagemaker.
 
 ## Security
 
